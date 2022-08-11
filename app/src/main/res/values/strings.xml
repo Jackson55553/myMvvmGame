@@ -20,5 +20,8 @@
     <string name="settings">Настройки</string>
     <string name="help">Помощь</string>
     <string name="title_statement">Я никогда не...</string>
+    <string name="help_text">Все вопросы и пожелания принимаю на почту Dudin10@mail.ru</string>
+    <string name="switch_intim">Интимные вопросы</string>
+    <string name="dark_theme">Темная тема</string>
 
 </resources>
