@@ -13,5 +13,6 @@
     <color name="dark_blue">#00008B</color>
     <color name="medium_state_blue">#00BFFF</color>
     <color name="gold">#FFD700</color>
-    <color name="Maroon">#800000</color>
+    <color name="maroon">#800000</color>
+    <color name="plum">#DDA0DD</color>
 </resources>

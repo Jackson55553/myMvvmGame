@@ -15,7 +15,7 @@ class MainViewModel(private val repository: Repository = RepositoryImpl()) : Vie
         return liveDataToObserve
     }
 
-    fun requestData() {
+    fun requestDataFromLocal() {
         liveDataToObserve.value = AppState.Loading
         Thread {
             sleep(500)
@@ -24,5 +24,11 @@ class MainViewModel(private val repository: Repository = RepositoryImpl()) : Vie
         }.start()
     }
 
-
+    fun restartDataFromLocal(){
+        Thread {
+            sleep(100)
+            liveDataToObserve.postValue(
+                AppState.Reload(repository.getQuestionsFromLocal()))
+        }.start()
+    }
 }

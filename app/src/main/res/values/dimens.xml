@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="instruction">10dp</dimen>
+    <dimen name="app_dimen">10dp</dimen>
+    <dimen name="instructions">20dp</dimen>
 </resources>

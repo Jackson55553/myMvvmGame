@@ -1,16 +1,24 @@
 <resources>
-    <string name="app_name">Game</string>
+    <string name="app_name">«Я никогда не…»</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="name_app">I Never No</string>
     <string name="exit">Выход</string>
     <string name="start_game">Начать игру</string>
-    <string name="first_instr">Что же это такое "Я никогда не"?</string>
-    <string name="sec_inst">Все садятся в круг или просто набиваются в одну комнату. По очереди каждый вытаскивает карточку и зачитывает одну из фраз. И говорит, начиная с «Я никогда не…». И каждый, кто когда-то всё-таки делал то, что написано на карточке, должен выпить рюмку до дна. Как вы понимаете, этого всем будет мало, так что признание обычно сопровождается красочным рассказом о том, где, как и почему это случилось.</string>
+    <string name="first_instr">Инструкция по игре</string>
+    <string name="sec_inst">Все садятся в круг или просто набиваются в одну комнату. По очереди каждый зачитывает одну из фраз, начиная с «Я никогда не…». И каждый, кто когда-то всё-таки делал то, что написано на карточке, должен выпить рюмку до дна (Либо выполнить задание, если у вас безалкогольная вечеринка). Как вы понимаете, этого всем будет мало, так что признание обычно сопровождается красочным рассказом о том, где, как и почему это случилось.</string>
     <string name="rules">Правила простые:</string>
     <string name="who_win">Есть ли победитель?</string>
     <string name="third_instr"> Решают участники: может быть, победят те, кто останется самыми трезвыми. А может быть, стоит отдать победу тем, кто делал так много всего, что прилично напился в процессе игры — как самым опытным приключенцам. Ещё победа может достаться лучшему рассказчику. Но главное, и самое весёлое, — участие!</string>
     <string name="yes">да</string>
     <string name="next_questions">Далее</string>
     <string name="start_question">Старт</string>
-    <string name="game_instruction">Чтобы начать игру нажмите старт</string>
+    <string name="game_instruction_first">Чтобы начать игру нажмите старт. </string>
+    <string name="game_instruction_second">Игрок зачитывает вопрос, если зачитывающий делал, зачитанное действие, то после выполнения задания он обязан рассказать историю, о том как это произошло.</string>
+    <string name="game_instruction_third">После истории право зачитывать историю преходит следующему игроку.</string>
+    <string name="exercise">Задание:</string>
+    <string name="instruction">Инструкция</string>
+    <string name="settings">Настройки</string>
+    <string name="help">Помощь</string>
+    <string name="title_statement">Я никогда не...</string>
+
 </resources>
