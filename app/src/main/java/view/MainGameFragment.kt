@@ -48,7 +48,7 @@ class MainGameFragment : Fragment() {
                     loadingLayout.visibility = View.GONE
                     val rnd = (0..52).random()
                     statement.text = myData[rnd].statement
-                    exerciceSecond.text = myData[rnd].exercise
+                    exerciseSecond.text = myData[rnd].exercise
                 }
             }
             is AppState.Loading -> {
@@ -65,7 +65,7 @@ class MainGameFragment : Fragment() {
                 with(binding) {
                     val rnd = (0..52).random()
                     statement.text = myData[rnd].statement
-                    exerciceSecond.text = myData[rnd].exercise
+                    exerciseSecond.text = myData[rnd].exercise
                 }
             }
         }

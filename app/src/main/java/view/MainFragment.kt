@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.mymvvm.R
 import com.example.mymvvm.databinding.FragmentMainBinding
+import kotlin.system.exitProcess
 
 
 class MainFragment : Fragment() {
@@ -30,7 +31,7 @@ class MainFragment : Fragment() {
                 .commit()
         }
         binding.exit.setOnClickListener {
-            System.exit(0)
+            exitProcess(0)
         }
 
     }

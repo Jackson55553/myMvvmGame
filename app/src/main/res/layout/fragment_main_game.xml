@@ -27,17 +27,17 @@
         app:layout_constraintTop_toBottomOf="@+id/title_statement" />
 
     <TextView
-        android:id="@+id/exercice_first"
+        android:id="@+id/exercise_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/app_dimen"
         android:text="@string/exercise"
         android:textColor="@color/dark_blue"
         android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/exercice_second" />
+        app:layout_constraintBottom_toTopOf="@+id/exercise_second" />
 
     <TextView
-        android:id="@+id/exercice_second"
+        android:id="@+id/exercise_second"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/app_dimen"
